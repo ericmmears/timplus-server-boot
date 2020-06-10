@@ -3,12 +3,12 @@ spring:
     url: "jdbc:hsqldb:embedded-db/openfire"
     username: sa
     password: 
-
+        
   flyway.locations: classpath:db/migration/{vendor}  
   
 openfire:
   domain: domain.com
-  adminUsername: admin
-  adminPassword: admin
+  adminUsername: timplus
+  adminPassword: timplus
 
 
